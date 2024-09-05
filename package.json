@@ -1,0 +1,21 @@
+{
+  "name": "trello-like-board-api",
+  "version": "1.0.0",
+  "description": "A Trello-like board API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "init-db": "node src/database/initDb.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}
